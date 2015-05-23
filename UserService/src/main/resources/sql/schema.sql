@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS ebdb.user;
+
+CREATE TABLE ebdb.user 
+( 
+  id INT(10) NOT NULL AUTO_INCREMENT
+, firstname VARCHAR(255) NULL 
+, lastname VARCHAR(255) NULL 
+, email VARCHAR(255) NULL 
+, phone VARCHAR(255) NULL 
+, CONSTRAINT PRIMARY KEY ( id ) );
